@@ -1,0 +1,25 @@
+---
+
+
+## .gitignore
+
+```gitignore
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+
+# Sensitive
+secret.auto.tfvars
+*.pem
+
+
+# OS
+.DS_Store
+*.log
+
+
+# Azure DevOps
+.vscode/
